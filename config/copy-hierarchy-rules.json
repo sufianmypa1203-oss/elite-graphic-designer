@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "name": "Elite Copy Flow Optimizer Rules",
+    "description": "Rules for calculating typographic rhythms and cognitive parsing.",
+    "hierarchy_enforcement": {
+        "required_elements": [
+            "h1",
+            "h2",
+            "p"
+        ],
+        "max_headings_per_section": 3,
+        "optimal_line_length_min": 45,
+        "optimal_line_length_max": 75,
+        "orphan_widow_prevention": true
+    },
+    "cognitive_load_rules": {
+        "max_consecutive_bold_words": 5,
+        "all_caps_requires_tracking": true,
+        "all_caps_min_tracking_em": 0.05
+    }
+}

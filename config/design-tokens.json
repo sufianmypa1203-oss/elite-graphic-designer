@@ -1,0 +1,98 @@
+{
+    "version": "1.0.0",
+    "name": "Elite Design System Tokens Base",
+    "description": "Base values for generating theme.css and Figma variables.",
+    "spacing_scale": {
+        "4": "0.25rem",
+        "8": "0.5rem",
+        "12": "0.75rem",
+        "16": "1rem",
+        "24": "1.5rem",
+        "32": "2rem",
+        "40": "2.5rem",
+        "48": "3rem",
+        "64": "4rem",
+        "80": "5rem",
+        "96": "6rem",
+        "128": "8rem"
+    },
+    "typography_scale": {
+        "ratio": "major_third",
+        "base_size_px": 16,
+        "base_line_height": 1.5,
+        "levels": {
+            "xs": {
+                "size": "0.75rem",
+                "lineHeight": "1rem"
+            },
+            "sm": {
+                "size": "0.875rem",
+                "lineHeight": "1.25rem"
+            },
+            "base": {
+                "size": "1rem",
+                "lineHeight": "1.5rem"
+            },
+            "lg": {
+                "size": "1.125rem",
+                "lineHeight": "1.75rem"
+            },
+            "xl": {
+                "size": "1.25rem",
+                "lineHeight": "1.75rem"
+            },
+            "2xl": {
+                "size": "1.5rem",
+                "lineHeight": "2rem"
+            },
+            "3xl": {
+                "size": "1.875rem",
+                "lineHeight": "2.25rem"
+            },
+            "4xl": {
+                "size": "2.25rem",
+                "lineHeight": "2.5rem"
+            },
+            "5xl": {
+                "size": "3rem",
+                "lineHeight": "1"
+            },
+            "6xl": {
+                "size": "3.75rem",
+                "lineHeight": "1"
+            }
+        }
+    },
+    "color_generation": {
+        "satori_progression": {
+            "lightness_curve": [
+                98,
+                95,
+                90,
+                80,
+                70,
+                60,
+                50,
+                40,
+                30,
+                20,
+                10,
+                5
+            ],
+            "saturation_curve": [
+                10,
+                20,
+                40,
+                60,
+                80,
+                90,
+                100,
+                90,
+                80,
+                60,
+                40,
+                20
+            ]
+        }
+    }
+}
